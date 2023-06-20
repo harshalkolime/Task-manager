@@ -42,8 +42,8 @@ export const ShowTask = ({ tasklist, setTasklist,task,setTask}) => {
           <li key={todo.id} >
             <div>
 
-              <span className='name'>{todo.name}</span>
-              <span className='time'>{todo.time}</span>
+              <p className='name'>{todo.name}</p>
+              <p className='time'>{todo.time}</p>
 
 
             </div>
